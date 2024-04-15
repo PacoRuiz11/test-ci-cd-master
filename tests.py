@@ -5,7 +5,7 @@ def test_upper_case():
         "word": "WORD",
         "hello": "HELLO",
         "HELLO": "HELLO",   
-        "": ""
+        "": "",
     }
     
     for input_, output_ in test_words.items():

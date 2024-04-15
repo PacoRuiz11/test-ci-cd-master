@@ -3,10 +3,10 @@ name: Run test of application
 on: 
   push: #Execute on commit to branch master
     branches:
-      - master
+      - main
   pull_request: #Execute on pull request to branch master
     branches:
-      - master
+      - main
 
 jobs: 
   test_python:
